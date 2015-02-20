@@ -1,0 +1,16 @@
+$def with (form,title)
+
+<html>
+	<head>
+		<title>$title</title>
+		<link rel="stylesheet" type="text/css" href="/static/styles.css">
+	</head>
+	<body>
+		<P><center><H1>Christmas Lights Controller</H1></center>	
+		<br />
+		<br />
+		<form class="form" method="post">
+		$:form.render()
+		</form>
+	</body>
+</html>

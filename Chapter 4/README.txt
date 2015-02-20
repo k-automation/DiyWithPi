@@ -1,0 +1,1 @@
+Christmas lights controller example demonstrates interfacing AC appliances as well as playing mp3 files using a web interface (based on the web.py framework)

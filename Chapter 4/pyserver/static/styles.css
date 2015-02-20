@@ -1,0 +1,28 @@
+form .btntree {
+	margin-left : 200px;
+	margin-right : auto;
+	background:transparent url("images/topic_button.png") no-repeat top left;
+	width : 186px;
+	height: 240px;
+	padding : 0px;
+    position : absolute;
+}
+form .btnSanta{
+	margin-left :600px;
+	margin-right : auto;
+	background:transparent url("images/Santa-png.png") no-repeat top left;
+	width : 240px;
+	height: 240px;
+	padding : 40px;
+	position : absolute;
+}
+form .btnaudio {
+	margin-left : 1000px;
+	margin-right : auto;
+	background:transparent url("images/audio.png") no-repeat top left;
+	width : 320px;
+	height: 240px;
+	padding : 0px;
+	position : absolute;
+}
+body {background-image:url('bg-snowflakes-3.gif');}

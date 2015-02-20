@@ -1,0 +1,1 @@
+The first chapter is a "Hello world" example using the Raspberry Pi. We demonstrate blinking an LED using the quick2wire python lib raryas well as RPi.GPIO library. 

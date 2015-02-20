@@ -1,0 +1,1 @@
+Code samples for the Raspberry Pi Embedded Hotshots chapter

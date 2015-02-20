@@ -1,0 +1,1 @@
+Chapter 2 - Arduino Raspberry Pi interface. This chapter demonstrates the use of the Adafruit Raspberry Pi IDE. The first example in this chapter was based on the I2C communication examples from: https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code while the script Play_blinkm was used to demonstrate debugging examples using the IDE. 
