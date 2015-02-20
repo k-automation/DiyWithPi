@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Recording Vital Health Parameters using Flask framework</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>Form to record health parameters</h1>
+            </div>
+            <div id="content">
+                <form method="post">
+                  <label for="BloodPressure">Blood Pressure:</label>
+                  <input type="text" name="BloodPressure" />
+                  <label for="SpO2">SpO<sub>2</sub>:</label>
+                  <input type="text" name="SpO2" /><br />
+				  <label for="pulse">Pulse:</label>
+                  <input type="text" name="pulse" /><br />
+                  <input type="submit" value="Submit Record" />
+                </form>
+            
+        </div>
+    </body>
+</html>
+ 

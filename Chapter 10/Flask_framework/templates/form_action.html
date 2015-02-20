@@ -1,0 +1,21 @@
+ <html>
+    <head>
+        <title>Data Recorded!</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>Your Data has been recorded to a CSV File!</h1>
+            </div>
+            <div id="content">
+				Data Recorded:<br/>
+				<strong>Log time: {{date}},{{time}}<br/></strong>
+				Blood Pressure: <strong>{{bloodPressure}}</strong> Oxygen Saturation:<strong>{{SpO2}}</strong>
+				Pulse:<strong>{{pulse}}</strong>
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
